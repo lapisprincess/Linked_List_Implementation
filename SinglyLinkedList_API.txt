@@ -1,0 +1,16 @@
+CONSTRUCTOR:
+SinglyLinkedList()
+
+ACCESSORS:
+int getHopCount()
+E get(int index) - 0 <= index < size
+int indexOf(E item) - return -1 if nonexist
+
+
+MUTATORS:
+void resetHopCount()
+E remove(int index) - 0 <= index < size
+boolean remove((E item)
+E set(int index, E new_value) - returns previous object
+void add(int index, E item)
+boolean add(E item) - returns true if successful
